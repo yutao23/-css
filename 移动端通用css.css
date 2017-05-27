@@ -1,0 +1,17 @@
+
+
+html { font-size: 100px; }
+@media(min-width: 320px) { html { font-size: 100px; } }
+@media(min-width: 360px) { html { font-size: 112.5px; } }
+@media(min-width: 400px) { html { font-size: 125px; } }
+@media(min-width: 640px) { html { font-size: 200px; } } 	
+/*禁用a,button,input,optgroup,select,textarea 等标签背景变暗*/
+a,button,input,optgroup,select,textarea{
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+/*四：移动端如何定义字体font-family*/
+body{font-family: "Helvetica Neue", Helvetica, sans-serif;}
+
+
+
+
